@@ -1,5 +1,9 @@
 import Head from 'next/head'
 
+import {
+  Button,
+} from "@material-tailwind/react";
+
 export default function Home() {
   return (
     <div >
@@ -10,9 +14,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
+        <Button>Vote</Button>
       </main>
     </div>
   )
