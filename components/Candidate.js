@@ -9,9 +9,9 @@ import {
 
 const Candidate = ({ candidate }) => {
     return (
-        <Card className="w-64">
+        <Card className="w-64 mx-auto">
             <CardHeader floated={false} className="h-48">
-                <img src="https://i.pravatar.cc/150?img=10" alt="profile-picture" className="w-full" />
+                <img src={candidate.img_profile} alt="profile-picture" className="w-full" />
             </CardHeader>
             <CardBody className="text-center">
                 <Typography variant="h4" color="blue-grey" className="mb-2">

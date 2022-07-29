@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "John",
+    "party": "Blue",
+    "img_profile": "https://i.pravatar.cc/150?img=69"
+  },
+  {
+    "id": 2,
+    "name": "Doe",
+    "party": "Red",
+    "img_profile": "https://i.pravatar.cc/150?img=68"
+  }
+]
